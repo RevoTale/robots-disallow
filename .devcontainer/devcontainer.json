@@ -1,0 +1,23 @@
+{
+    "name": "Robots.txt Disallow",
+    "image": "mcr.microsoft.com/devcontainers/go:1",
+    "features": {
+        "ghcr.io/wxw-matt/devcontainer-features/command_runner:0": {},
+        "ghcr.io/devcontainers/features/docker-outside-of-docker:1": {}
+    },
+    "forwardPorts": [],
+    "remoteUser": "root",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "golang.go",
+                "ms-azuretools.vscode-docker",
+                "ms-vscode.remote-repositories",
+                "GitHub.remotehub",
+                "ms-vscode.makefile-tools",
+                "GraphQL.vscode-graphql",
+                "GraphQL.vscode-graphql-syntax"
+            ]
+        }
+    }
+}
